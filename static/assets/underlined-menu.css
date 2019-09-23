@@ -1,0 +1,20 @@
+button.mid-header{
+    color: #ededed;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 16px;
+    border: none;
+    border-bottom:2px solid #1a1a1a;
+    background: none;
+    transition: border .7s linear;
+
+}
+
+button.mid-header:hover{
+    border-bottom:2px solid #949390;
+}
+
+button.mid-header:focus {
+    outline:0;
+    border-bottom:2px solid yellow;
+}

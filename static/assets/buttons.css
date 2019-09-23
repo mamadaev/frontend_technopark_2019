@@ -1,0 +1,88 @@
+button.menu{
+    background-color: #1a1a1a;
+    color: #ededed;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 16px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: #56534d;
+    margin-top :5px;
+    transition: border .5s linear;
+}
+
+button.menu:hover{
+    border-color: #949390;
+}
+
+button.menu:focus {
+    outline:0;
+    border-width: 2px;
+    border-color: yellow;
+}
+
+button.menu:active {
+    outline:0;
+    border-width: 2px;
+    border-color: yellow;
+}
+
+button.common{
+    background-color: #1a1a1a;
+    color: #ededed;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 16px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: #56534d;
+    margin-top :5px;
+    transition: border .5s linear;
+}
+
+button.common:hover{
+    border-color: #949390;
+}
+
+button.common:focus {
+    outline:0;
+    border-width: 2px;
+    border-color: #56534d;
+}
+
+button.common:active {
+    transition: border .1s linear;
+    outline:0;
+    border-width: 2px;
+    border-color: yellow;
+}
+
+
+button.login-common{
+    background: none;
+    font-size: 14px;
+	text-decoration:none;
+    color: #ededed;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: #56534d;
+    transition: border .5s linear;
+    padding: 10px 15px;
+}
+
+button.login-common:hover{
+    border-color: #949390;
+}
+
+button.login-common:focus {
+    outline:0;
+    border-width: 2px;
+    border-color: #56534d;
+}
+
+button.login-common:active {
+    transition: border .1s linear;
+    outline:0;
+    border-width: 2px;
+    border-color: yellow;
+}
