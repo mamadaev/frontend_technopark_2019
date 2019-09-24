@@ -1,68 +1,67 @@
-/***** input для поиска *****/
-.find-input{
+.text-input {
     color: #ededed;
-    outline: none; 
+    outline: none;
     background: none;
     border-style: none;
-    width: 500;
-    border-bottom:2px solid #949390;
+    border-bottom: 2px solid #949390;
     height: 24px;
     font-size: 16px;
-    outline: none; 
+    outline: none;
     background: none;
     transition: border .5s linear;
-    margin:0;
-    padding-left: 37px;
-    padding-right: 37px;
+    margin: 10px 0;
     padding-bottom: 5px;
     width: 100%;
 }
 
 
 .input_container {
-    position:relative;
-    padding:0 0 20 0px;
+    position: relative;
+    padding: 0 0 20 0px;
     background: none;
     direction: ltr;
     width: 400px;
 }
 
 .input_img {
-    position:absolute;
-    bottom:9px;
-    left:7px;
+    position: absolute;
+    bottom: 9px;
+    left: 7px;
     height: 20px;
     width: 20px;
 }
 
 .input_img_clear {
-    position:absolute;
-    bottom:9px;
-    right:-67px;
+    position: absolute;
+    bottom: 9px;
+    right: -67px;
     height: 20px;
     width: 20px;
 }
 
-.find-input:hover{
-    border-bottom:2px solid #cecdc8;
+.text-input:hover {
+    border-bottom: 2px solid #cecdc8;
 }
 
-.find-input:focus{
+.text-input:focus {
     background: none;
-    border-bottom:2px solid yellow;
+    border-bottom: 2px solid yellow;
 }
 
-.find-input::-webkit-input-placeholder { /* Chrome */
+.text-input::-webkit-input-placeholder { /* Chrome */
     color: #cecdc8;
 }
-.find-input:-ms-input-placeholder { /* IE 10+ */
+
+.text-input:-ms-input-placeholder { /* IE 10+ */
     color: #cecdc8;
 }
-.find-input::-moz-placeholder { /* Firefox 19+ */
+
+.text-input::-moz-placeholder { /* Firefox 19+ */
     color: #cecdc8;
     opacity: 1;
 }
-.find-input:-moz-placeholder { /* Firefox 4 - 18 */
+
+.text-input:-moz-placeholder { /* Firefox 4 - 18 */
     color: #cecdc8;
     opacity: 1;
 }

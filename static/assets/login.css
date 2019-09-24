@@ -1,0 +1,14 @@
+.login-form {
+    width: 30%;
+    margin: 10% auto;
+    padding: 30px;
+    background: #333;
+}
+
+.login-form .logo {
+    margin-bottom: 30px;
+}
+
+.login-form .login-button {
+    margin-top: 20px;
+}
