@@ -2,11 +2,14 @@
 @import "underlined-menu.css"; 
 @import "buttons.css";
 @import "inputs.css";
+@import "currency.css";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic');
 
 body {
     background-color: #1a1a1a; /* Цвет фона веб-страницы */
     display: grid;
-    font-family: Avenir;
+    font-family: 'Open Sans';
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
 }
@@ -31,4 +34,8 @@ button:hover{
 logo-img{
     width: 32px; 
     height: 32px; 
+}
+
+.content {
+    padding: 0 110px;
 }

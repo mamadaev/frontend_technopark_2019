@@ -1,0 +1,40 @@
+.currency-rates {
+    display: flex;
+}
+
+.currency-rate-container {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    background: #f3f3f3;
+    padding: 30px;
+    margin: 30px;
+}
+
+.currency-caption {
+    font-size: 1.2em;
+}
+
+.currency-sub-caption {
+    font-size: .7em;
+    opacity: .7;
+    margin-left: 4px;
+    position: relative;
+    bottom: 1px;
+}
+
+.currency-price {
+    font-size: 2em;
+}
+
+.currency-change {
+    font-size: .8em;
+}
+
+.currency-change-down {
+    color: #a70000;
+}
+
+.currency-change-up {
+    color: #48a700;
+}
