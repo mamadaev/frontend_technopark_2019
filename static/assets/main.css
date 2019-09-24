@@ -2,9 +2,14 @@
 @import "underlined-menu.css"; 
 @import "buttons.css";
 @import "inputs.css";
+@import "login.css";
 @import "currency.css";
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: #1a1a1a; /* Цвет фона веб-страницы */
@@ -31,11 +36,19 @@ button:hover{
    
 }
 
-logo-img{
-    width: 32px; 
-    height: 32px; 
+.logo {
+    font-size: 2em;
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo span {
+    color: yellow;
 }
 
 .content {
-    padding: 0 110px;
 }
